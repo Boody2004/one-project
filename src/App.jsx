@@ -1,24 +1,11 @@
 import "./App.css";
+import MovieCard from "./components/MovieCard";
 
 function App() {
   return (
     <>
-      <div>
-        <p>hello world</p>
-      </div>
-      <Text display="hello world" />
-      <Text display="yes" />
-      <Text display="no" />
-      <Text display="oops" />
+      <MovieCard movie={{ title: "title", release_data: "20.20.2025" }} />
     </>
-  );
-}
-
-function Text({ display }) {
-  return (
-    <div>
-      <p>{display}</p>
-    </div>
   );
 }
 
