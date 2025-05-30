@@ -1,6 +1,6 @@
 # Full Stack (Frontend)
 
-## go to website [Full Stack]()
+## go to website [Full Stack](https://movie-wine-alpha.vercel.app/)
 
 <b>coded by [Abdelrahman](<[www.launchy.com](https://aaaportfolio.vercel.app/)>)</b>
 
@@ -18,5 +18,3 @@ npm install
 ```
 npm run dev
 ```
-
-**in backend folder**
