@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../css/Home.css";
 import MovieCard from "../components/MovieCard";
 
 function Home() {
@@ -33,12 +34,9 @@ function Home() {
       </form>
 
       <div className="movie-grid">
-        {movies.map(
-          (movie) =>
-            movie.title.toLowerCase().startsWith(searchQuery) && (
-              <MovieCard movie={movie} key={movie.id} />
-            )
-        )}
+        {movies.map((movie) => (
+          <MovieCard movie={movie} key={movie.id} />
+        ))}
       </div>
     </div>
   );
