@@ -23,13 +23,13 @@ function MovieCard({ movie }) {
             className={`favorite-btn ${favorite ? "active" : ""}`}
             onClick={onFavoriteClick}
           >
-            🤍
+            ♥
           </button>
         </div>
       </div>
       <div className="movie-info">
         <h3>{movie.title}</h3>
-        <p>{movie.release_date.split("-")[0]}</p>
+        <p>{movie.release_date?.split("-")[0]}</p>
       </div>
     </div>
   );
